@@ -36,5 +36,12 @@ public class CadenaTexto {
         this.cadena3 = cadena3;
     }
     
+    //metedo creado por dani
+    public String toString(){
+        return this.cadena+this.cadena2+this.cadena3;
+    }
+    
+    
+    
     
 }
