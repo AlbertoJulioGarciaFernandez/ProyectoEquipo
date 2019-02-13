@@ -11,7 +11,8 @@ public class CadenaTexto {
     */
     private String cadena2=" ETS ";
     private String cadena3="Dani y Alberto"; 
-
+    private String cadena4="2018/2019";
+    
     public String getCadena() {
         return cadena;
     }
@@ -36,10 +37,18 @@ public class CadenaTexto {
         this.cadena3 = cadena3;
     }
     
+    public String getCadena4() {
+        return cadena4;
+    }
+
+    public void setCadena4(String cadena4) {
+        this.cadena4 = cadena4;
+    }
+    
     @Override
     //metedo creado por dani
     public String toString(){
-        return this.cadena+this.cadena2+this.cadena3;
+        return this.cadena+this.cadena2+this.cadena3+this.cadena4;
     }                
     
 }
