@@ -49,6 +49,11 @@ public class CadenaTexto {
     //metedo creado por dani
     public String toString(){
         return this.cadena+this.cadena2+this.cadena3+this.cadena4;
-    }                
+    } 
+    
+    //método creado por Alberto
+    public String nuevaCadena(){
+        return "Este proyecto es de Entornos Desarrollo";
+    }
     
 }
